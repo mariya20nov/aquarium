@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+  display: inline-block;
+}
+
+.App-header {
+  background-color: #222;
+  height: 40px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  display: inline-block;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.rt-table {
+  /*width: 700px !important;
+  height: 500px !important;*/
+  max-width: 700px;
+  max-height: 500px;
+}
+
+.rt-td,
+.rt-th {
+  padding: 0 !important;
+  max-width: 30px !important;
+  border-right: 1px solid rgb(220, 220, 220) !important;
+}
+
+.rt-tr {
+  padding: 0 !important;
+  border-bottom: 1px solid rgb(220, 220, 220) !important;
+}
+
+.rt-tr-group {
+  flex-direction: row !important;
+  border-bottom: 0 !important;
+}
+
+.ReactTable .rt-table {
+  overflow: hidden !important;
+}
+
+.TableDiv,
+.SolutionDiv,
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label,
+.Dropdown-root {
+  margin: 20px 5px 20px 20px;
+  display: inline-block;
+}
+
+.Dropdown-root {
+  margin-left: 0;
+}
+
+.Dropdown-placeholder {
+  height: 20px;
+  width: 40px;
+}
