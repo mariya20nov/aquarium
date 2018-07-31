@@ -30,10 +30,13 @@
 }
 
 .rt-table {
-  /*width: 700px !important;
-  height: 500px !important;*/
   max-width: 700px;
   max-height: 500px;
+}
+
+.rt-tbody {
+  min-width: 300px !important;
+  min-height: 300px !important;
 }
 
 .rt-td,
